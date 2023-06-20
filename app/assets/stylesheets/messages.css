@@ -100,18 +100,25 @@
   padding: 20px 40px;
 }
 .bottom_content{
-  display: flex;
+ 
 }
 .post_form{
 border: none;
-padding-left: 10px;
+
 width: 100%;
 height: 50px;
+display: flex;
 }
 .form_input{
   display: flex;
   width: 100%;
   background-color: white;
+  
+}
+.form_message{
+  border: none;
+  width: 100%;
+  padding-left: 10px;
 }
 .form_image {
   font-size: 12px;
