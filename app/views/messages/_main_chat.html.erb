@@ -5,26 +5,9 @@
   </div>
 </div>
 <div class="main_middle">
-  <div class="posts">
-    <div class="post">
-      <div class="post_user">
-        <div class="user_name">Tom</div>
-        <div class="post_date">12:00</div>
-      </div>
-      <div class="post_content">
-      Hello
-      </div>
-    </div>
-    <div class="post">
-      <div class="post_user">
-        <div class="user_name">Tom</div>
-        <div class="post_date">12:00</div>
-      </div>
-      <div class="post_content">
-      Hello
-      </div>
-    </div>
-  </div>
+   <div class="posts">
+    <%=render partial:'message', collection: @messages%>
+   </div>
 </div>
 <div class="main_bottom">
   <div class="bottom_content">
