@@ -7,4 +7,5 @@
       <div class="post_content">
         <%=message.content%>
       </div>
+      <%= image_tag message.image.variant(resize: '500x500'), class: 'post_image' if message.image.attached?%>
     </div>
